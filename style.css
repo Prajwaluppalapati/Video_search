@@ -1,0 +1,83 @@
+:root{
+    --pink: #e84393;
+    --white: white;
+    --lightbalck: #1A1837;
+    --textgrey: #a49ad4f8;
+    --brightpink: #FF3069;
+}
+body{
+    font-family: 'Advent Pro';
+    color: var(--white);
+}
+.white{
+    color: var(--white);
+}
+.darkpink{
+    color: var(--pink);
+}
+.twa{
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo{
+    text-align: center;
+}
+.navbar{
+    background: var(--lightbalck);
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 20px 30px;
+    user-select: none;
+}
+.fa-search{
+    margin-left: -10px;
+}
+.trending{
+    color: var(--textgrey);
+    margin-top: 20px;
+}
+.trending span{
+    margin-left: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+.search{
+    background: var(--brightpink);
+    border-radius: 100px;
+    padding: 5px 20px;
+    margin: 20px 0 0 0;
+    width: 100px;
+    cursor: pointer;
+}
+.section{
+    color: var(--textgrey);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: default;
+}
+img{
+    height: 20px;
+    border-radius: 50%;
+}
+.ch2{
+    margin-top: 10px;
+}
+.scroll{
+    margin-top: -10px;
+}
+.one{   
+    position: absolute;
+}
+.VofDay{
+    border-radius: 0;
+    margin-left: 200px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+  
